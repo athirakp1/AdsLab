@@ -178,6 +178,7 @@ void deleteLast()
  {
   free(head);
   head=NULL;
+	 return;
  }
  ptr=head->right;
  while (ptr->right!=NULL)
